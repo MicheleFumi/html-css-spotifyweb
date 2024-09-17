@@ -22,6 +22,16 @@ body{
 .justify_end{
     justify-content: flex-end;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.col2{
+   
+    width: calc((100% / 12) * 6);
+    aspect-ratio: 1 / 1;
+}
 /*#endregion COMMON */
 
 /*#region TOP */
@@ -63,17 +73,11 @@ body{
             padding: 1rem 18rem;
         }
 
-        .recently_played{
-            display: flex;
-            flex-direction: row;
-            gap: 1rem;
-        }
-        .col2{
-           
-            width: calc((100% / 12) * 6);
-            aspect-ratio: 1 / 1;
-        }
         
+        .artist_rec_played{
+            padding-top: 1rem ;
+            text-align: center;
+        }
         /*#endregion MAIN */
 
     /*#endregion CONTENT */
