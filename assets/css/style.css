@@ -1,3 +1,4 @@
+/*#region COMMON */
 *{
     margin: 0;
     padding: 0;
@@ -9,3 +10,38 @@ img{
 .debug *{
     border: 1px dashed black;
 }
+body{
+    width: 100vh;
+}
+.d_flex{
+    display: flex;
+}
+.justify_end{
+    justify-content: flex-end;
+}
+/*#endregion COMMON */
+
+/*#region SIDEBAR */
+    #sidebar{
+        width: 25%;
+        height: 100vh;
+    }
+/*#endregion SIDEBAR */
+
+/*#region CONTENT */
+#content{
+    margin-left: 25%;
+  
+
+}
+
+/*#endregion CONTENT */
+
+/*#region HEADER */
+/*#endregion HEADER */
+
+/*#region MAIN */
+/*#endregion MAIN */
+
+/*#region FOOTER */
+/*#endregion FOOTER */
