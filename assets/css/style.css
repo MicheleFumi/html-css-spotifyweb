@@ -37,6 +37,13 @@ body{
    
     height: calc((100% / 12) * 2);
     
+    
+}
+.col3{
+   
+    height: calc((100% / 12) * 3);
+    
+    
 }
 .round{
     border-radius: 50%;
@@ -139,11 +146,14 @@ body{
 #app_footer{
     background-color: rgb(202, 17, 17);
     position: sticky;
+    padding: 0.25rem;
     
 }
+.player{
+    justify-content: space-between;
+    align-items:center
 
-
-
+}
 /*#endregion FOOTER */
 
 /*#endregion BOTTOM */
