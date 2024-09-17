@@ -62,6 +62,18 @@ body{
             justify-content: space-evenly;
             padding: 1rem 18rem;
         }
+
+        .recently_played{
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+        }
+        .col2{
+           
+            width: calc((100% / 12) * 6);
+            aspect-ratio: 1 / 1;
+        }
+        
         /*#endregion MAIN */
 
     /*#endregion CONTENT */
