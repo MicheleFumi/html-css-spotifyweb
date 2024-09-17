@@ -24,14 +24,14 @@ body{
 
 /*#region SIDEBAR */
     #sidebar{
-        width: 25%;
+        
         height: 100vh;
     }
 /*#endregion SIDEBAR */
 
 /*#region CONTENT */
 #content{
-    margin-left: 25%;
+   
   
 
 }
