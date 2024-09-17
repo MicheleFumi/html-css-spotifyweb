@@ -12,8 +12,8 @@ img{
     border: 1px dashed black;
 }
 body{
- /*    height: 100vh; */
-    overflow: hidden;
+ 
+  /*   overflow: hidden; */
 
 }
 .d_flex{
@@ -24,7 +24,7 @@ body{
 }
 .row{
     display: flex;
-    flex-direction: row;
+   
     gap: 1rem;
 }
 .col2{
@@ -60,14 +60,29 @@ body{
         #app_header{
             
             background-color: rgba(0, 255, 255, 0.489);
+            
         }
+
+        .upgrade{
+        
+            padding: 2rem 0;
+            a{
+                border: 1px solid black;
+                border-radius: 4rem;
+                padding: 1rem;
+            }
+            
+        }
+
         /*#endregion HEADER */
 
         /*#region MAIN */
         #app_main{
             overflow-y: scroll;
         }
-
+        .main_container{
+            padding:1rem ;
+        }
         .choose_type{
             justify-content: space-evenly;
             padding: 1rem 18rem;
