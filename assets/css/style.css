@@ -47,12 +47,19 @@ body{
         #sidebar{
             width: 245px;
             background-color: rgb(0, 174, 255);
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            
             
         }
-        .logo{
-            padding: .5rem 0;
+        .logo, .playlist{
+            margin-bottom:1rem ;
         }
-
+        .list{
+            line-height: 1.5rem;
+            margin-bottom: 1rem;
+        }   
     /*#endregion SIDEBAR */
 
 
