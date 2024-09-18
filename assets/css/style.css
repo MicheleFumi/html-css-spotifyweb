@@ -90,8 +90,8 @@ div{
     padding: 0.5rem 0;
     
 }
-.big{
-    font-size: large;
+.small{
+    font-size: small;
 }
 
 /*#endregion COMMON */
@@ -335,18 +335,22 @@ div{
                 font-size: 1rem;
             }
 
-            .player_buttons, .player_volume{
+            .centre{
+                justify-content: center;
+            }
+            .player_buttons{
                 justify-content: space-evenly;
                 
             }
             .player_bar{
                 margin-top: 1rem;
-                justify-content: space-around;
 
             }
-            #volume-slider{
-                
-                
+            .player_volume{
+                justify-content: flex-end;
+                >a{
+                    margin-right: 1rem;
+                }
             }
         /*#endregion BOTTOM */
    
