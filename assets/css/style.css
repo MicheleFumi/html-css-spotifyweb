@@ -7,7 +7,7 @@
 
 }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 .debug *{
     border: 1px dashed black;
@@ -15,7 +15,7 @@ img{
 body{
     background-color: blueviolet;
     overflow: hidden;
-    height: 100vh;
+    
 
 }
 .d_flex{
@@ -27,10 +27,8 @@ body{
 .row{
     display: flex;
     gap: 1rem;
-    @media(max-width: 700px) {
-               
-        flex-wrap: wrap; 
-    }
+    
+   
 }
 .col6{
    
@@ -56,10 +54,16 @@ body{
 }
 /*#endregion COMMON */
 
+
+.wrapper{
+    height: 100vh;
+}
+
 /*#region TOP */
+ 
  #top{
-/*     height: calc(100% - 80px); */
- position: relative;
+    height: calc(100% - 80px);
+    display: flex;
  }
 
     /*#region SIDEBAR */
@@ -67,7 +71,8 @@ body{
            /*  width: 245px; */
             background-color: rgb(0, 174, 255);
             padding: 1rem;
-            height: 100vh;
+           width: 245px;
+           height: 100%;
             
         }
         .logo, .playlist{
@@ -138,36 +143,37 @@ body{
             padding: 1rem 0rem;
             line-height: 1.5rem;
         }
-        /*#endregion MAIN */
+        /*#endregion MAIN */ 
+        
+        /*#region BOTTOM */
+            #bottom{    
+            
+            
+            
+            }       
+            /*#region FOOTER */
+            #app_footer{
+            background-color: rgb(202, 17, 17);
+          /*   position: sticky; */
+            padding: 0.25rem;
+            overflow: hidden;
+            
+            }
+            .player{
+            justify-content: space-between;
+            align-items:center
+        
+            }
+        /*#endregion FOOTER */
+        
+        /*#endregion BOTTOM */
+   
+        /*#endregion CONTENT */
 
-    /*#endregion CONTENT */
 
 
 
 /*#endregion TOP */
 
-/*#region BOTTOM */
-#bottom{    
-    position: fixed;
-    bottom: 0%;
-    width: 100%;
-    
-    
-}
-/*#region FOOTER */
-#app_footer{
-    background-color: rgb(202, 17, 17);
-  /*   position: sticky; */
-    padding: 0.25rem;
-    
-}
-.player{
-    justify-content: space-between;
-    align-items:center
-
-}
-/*#endregion FOOTER */
-
-/*#endregion BOTTOM */
 
 
