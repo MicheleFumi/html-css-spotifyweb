@@ -75,6 +75,12 @@ a{
 .vertical_align{
     vertical-align: middle;
 }
+
+.evidenza_bar{
+    border: 1px solid #71a62a;
+    width: 40%;
+    margin: auto;
+}
 /*#endregion COMMON */
 
 /*#region COLORS */
