@@ -75,11 +75,19 @@ a{
 .vertical_align{
     vertical-align: middle;
 }
-
-.evidenza_bar{
-    border: 1px solid #71a62a;
+.text_center{
+    text-align: center;
+}
+.selection_bar{
+    border: 1px solid #adff2f;
     width: 40%;
     margin: auto;
+}
+div{
+    font-weight: bold;
+}
+.py-05{
+    padding: 0.5rem 0;
 }
 /*#endregion COMMON */
 
@@ -90,7 +98,7 @@ a{
     --bg-player:var(#282828);
     --bg-icon_big:var(#a3a3a3);
     --bg-text:var(#6a6a6a);
-    --bg-green:var(#71a62a);
+    --bg-green:var(#adff2f);
     
 }
 .white{
@@ -277,6 +285,10 @@ a{
         .category_name{
             padding: 1rem 0rem;
             line-height: 1.5rem;
+            >h2{
+                font-size: 1.5rem;
+
+            }
         }
         /*#endregion MAIN */ 
 
