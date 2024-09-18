@@ -296,10 +296,11 @@ div{
             #bottom{
                 
                 background-color:#282828;
+                height: 80px;
             }
            
             #app_footer{
-                height: 80px;
+               
             
             padding: 0.25rem;
      
@@ -310,8 +311,24 @@ div{
             align-items:center
         
             }
-      
-        
+            .left{
+                
+            }
+            .now_playing{
+                width: 3rem;
+            }
+            .name_playing{
+                margin-left: 1rem;
+                margin-right: 3rem;
+                
+            }
+            .heart{
+               margin-right: 0.5rem;
+               
+            }
+            .folder, .heart{
+                font-size: 1rem;
+            }
         /*#endregion BOTTOM */
    
         /*#endregion CONTENT */
