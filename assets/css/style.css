@@ -93,6 +93,7 @@ div{
 .big{
     font-size: large;
 }
+
 /*#endregion COMMON */
 
 /*#region COLORS */
@@ -334,11 +335,18 @@ div{
                 font-size: 1rem;
             }
 
-            .player_buttons{
+            .player_buttons, .player_volume{
                 justify-content: space-evenly;
                 
-                  
-            
+            }
+            .player_bar{
+                margin-top: 1rem;
+                justify-content: space-around;
+
+            }
+            #volume-slider{
+                
+                
             }
         /*#endregion BOTTOM */
    
