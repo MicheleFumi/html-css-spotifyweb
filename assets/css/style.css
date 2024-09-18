@@ -26,6 +26,9 @@ body{
 .justify_end{
     justify-content: flex-end;
 }
+.d_inline_block{
+    display: inline-block;
+}
 .row{
     display: flex;
   /*   gap: 1rem; */
@@ -66,8 +69,12 @@ body{
 
 a{
     text-decoration: none;
+        font-weight: bold;
+    
 }
-
+.vertical_align{
+    vertical-align: middle;
+}
 /*#endregion COMMON */
 
 /*#region COLORS */
@@ -113,11 +120,16 @@ a{
         #sidebar{
             background-color: #080b12;
             padding: 1rem;
+            padding-bottom: 0;
             width: 230px;
             overflow: hidden;
             height: 100%;
-            
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
+
+        
         .logo, .playlist{
             margin-bottom:1rem ;
         }
@@ -126,7 +138,7 @@ a{
             
         }
         .list{
-            line-height: 3rem;
+            line-height: 2rem;
             
  
         }   
@@ -139,9 +151,7 @@ a{
                
             }
         }
-        .bottom_sidebar{
-            margin: 1rem 0;
-        }
+       
         .icon_sidebar{
             width: 2rem;
             display: inline;
@@ -153,6 +163,7 @@ a{
        }
 
        .playlist{
+        margin-top: 1.5rem;
         color: white;
         text-decoration: none;
         font-weight: bold;
@@ -160,16 +171,42 @@ a{
        }
        .add_button{
         background-color: #a3a3a3;
-       /*  height: 2rem;
-        width: 2rem */;
         display: inline-block;
         vertical-align: middle;
         font-size:3rem;
-        text-align: center;
-        width: 3rem;
-        height: 3rem;
+  
+        padding: .5rem;
         color: black;
        }
+
+       .bottom_sidebar{
+        margin-bottom: .5rem;
+       }
+
+       .download_img{
+        width: 1rem;
+        vertical-align: top;
+        margin-bottom: 1rem;
+       }
+       .profile_img{
+        width: 1.5rem;
+        margin-right: .50rem;
+        background-color: #a3a3a3;
+        border-radius: 50%;
+        aspect-ratio: 1/1;
+
+       }
+       .profile_sidebar{
+       padding-top: 1rem;
+       }
+       .hr_sidebar{
+        border: 1px solid #6a6a6a;
+       }
+       .name_profile{
+        font-size: larger;
+       }
+
+
     /*#endregion SIDEBAR */
        
       
@@ -210,10 +247,11 @@ a{
         /*#region MAIN */
         #app_main{
             overflow:auto;
-            height: calc(100% - 80px);
+            height: calc(100% - 63px);
         }
         .main_container{
-            padding:1rem ;
+            padding:0rem 1rem;
+        
         }
         .choose_type{
             justify-content: center;
@@ -238,12 +276,12 @@ a{
 
         /*#region BOTTOM */
             #bottom{
-                height: 80px;
+                
                 background-color:#282828;
             }
            
             #app_footer{
-            
+                height: 80px;
             
             padding: 0.25rem;
      
