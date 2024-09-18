@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   font-size: .85rem;
+   font-size: .8rem;
    font-family: "Montserrat", sans-serif;
 }
 img{
@@ -126,24 +126,21 @@ a{
             
         }
         .list{
-            line-height: 2rem;
-            margin-bottom: 1rem;
+            line-height: 3rem;
+            
+ 
         }   
         .list_style{
             list-style: none;
-        }
-        .bottom_sidebar{
-            margin: 1rem 0;
-        }
-    /*#endregion SIDEBAR */
-        .list_style{
-            line-height: 3rem;
             >a{
                 color: white;
                 text-decoration: none;
                 font-weight: bold;
                
             }
+        }
+        .bottom_sidebar{
+            margin: 1rem 0;
         }
         .icon_sidebar{
             width: 2rem;
@@ -154,6 +151,28 @@ a{
             display: inline;
             vertical-align: middle
        }
+
+       .playlist{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size:larger;
+       }
+       .add_button{
+        background-color: #a3a3a3;
+       /*  height: 2rem;
+        width: 2rem */;
+        display: inline-block;
+        vertical-align: middle;
+        font-size:3rem;
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+        color: black;
+       }
+    /*#endregion SIDEBAR */
+       
+      
     /*#region CONTENT */
         .content{
            width: calc(100% - 230px);
