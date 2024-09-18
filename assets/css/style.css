@@ -77,6 +77,7 @@ body{
 #top{
     height: calc(100% - 80px);
     display: flex;
+   
 }
 
     /*#region SIDEBAR */
@@ -86,6 +87,10 @@ body{
             padding: 1rem;
             width: 230px;
             overflow: hidden;
+            height: 100%;
+            @media screen and (max-width:660px) {
+                width: 50px;
+            }
         }
         .logo, .playlist{
             margin-bottom:1rem ;
@@ -110,9 +115,17 @@ body{
     /*#region CONTENT */
         .content{
            width: calc(100% - 230px);
-         
+          
           
         }
+         
+        @media screen and (max-width:660px) {
+            .content{
+                width: calc(100% - 50px);
+            }
+
+            }
+         
 
         /*#region HEADER */
         #app_header{
@@ -162,13 +175,13 @@ body{
             line-height: 1.5rem;
         }
 
-        @media screen and (min-width: 768px){
+        @media screen and (max-width: 768px){
             .col3_lg{
                 width: calc((100% / 12) *3);
                 
             }
         }
-        @media screen and (min-width: 600px){
+        @media screen and (max-width: 600px){
             .col2_md{
                 width: 50%
                 
