@@ -136,8 +136,24 @@ a{
             margin: 1rem 0;
         }
     /*#endregion SIDEBAR */
-
-
+        .list_style{
+            line-height: 3rem;
+            >a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+               
+            }
+        }
+        .icon_sidebar{
+            width: 2rem;
+            display: inline;
+            vertical-align: middle;
+        }
+       .menù_icon{
+            display: inline;
+            vertical-align: middle
+       }
     /*#region CONTENT */
         .content{
            width: calc(100% - 230px);
