@@ -88,6 +88,10 @@ div{
 }
 .py-05{
     padding: 0.5rem 0;
+    
+}
+.big{
+    font-size: large;
 }
 /*#endregion COMMON */
 
@@ -328,6 +332,13 @@ div{
             }
             .folder, .heart{
                 font-size: 1rem;
+            }
+
+            .player_buttons{
+                justify-content: space-evenly;
+                
+                  
+            
             }
         /*#endregion BOTTOM */
    
