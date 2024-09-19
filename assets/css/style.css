@@ -15,7 +15,7 @@ img{
     border: 1px dashed black;
 }
 body{
-    background-color: #141922;
+    
     overflow: hidden;
     
 
@@ -104,7 +104,7 @@ div{
     --bg-icon_big:var(#a3a3a3);
     --bg-text:var(#6a6a6a);
     --bg-green:var(#adff2f);
-    
+
 }
 .white{
     color: white;
@@ -232,6 +232,7 @@ div{
     /*#region CONTENT */
         .content{
            width: calc(100% - 230px);
+           overflow: auto;
           
           
         }
@@ -242,13 +243,16 @@ div{
         /*#region HEADER */
         #app_header{
             
-            background-color: rgba(0, 0, 0, 0.334);
-            
+            background-color: rgba(0, 0, 0, 0.583);
+            position: sticky;
+            top: 0;
+            left: 0;
+            z-index: 1000;
         }
 
         .upgrade{
-        
-            padding: 2rem 0;
+            text-align: end;
+            padding: 2rem 1rem;
             
             a{
                 border: 1px solid white;
@@ -256,6 +260,7 @@ div{
                 padding: 1rem;
                 color: white;
                 font-weight: bolder;
+                
                 
             }
             
@@ -266,7 +271,8 @@ div{
         /*#region MAIN */
         #app_main{
             overflow:auto;
-            height: calc(100% - 63px);
+            height:100%;
+            background-color: #141922;
         }
         .main_container{
             padding:0rem 1rem;
@@ -316,9 +322,7 @@ div{
             align-items:center
         
             }
-            .left{
-                
-            }
+           
             .now_playing{
                 width: 3rem;
             }
