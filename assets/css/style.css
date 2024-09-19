@@ -576,7 +576,13 @@ div{
             margin:0rem -1rem;
         }
         
-        
+        .point_player{
+            left: .5rem;
+        }
+        .point_volume{
+            left: .1rem;
+        }
+    
     
 
 }
