@@ -268,7 +268,7 @@ div{
             }
             
         }
-
+          
         /*#endregion HEADER */
 
         /*#region MAIN */
@@ -405,9 +405,11 @@ div{
 
 /*#endregion TOP */
 
-
-
-
+/* #region HOVER */
+.fx_big:hover{
+    font-size: larger;
+}
+/* #endregion HOVER */
 /*#region QUERY LARGE */
 @media screen and (max-width: 768px){
     .col3_lg{
@@ -432,8 +434,31 @@ div{
 
 /*#region QUERY XSMALL */
 @media screen and (max-width:425px) {
-  #sidebar{width: 50px;
+    #sidebar{width: 50px;
     }
+    .logo_small{
+        display: block;
+    }
+    .logo_img{
+        display: none;
+    }
+    .list{
+        line-height: 3rem;
+    }
+
+    .xs_hidden{
+        display: none;
+    }
+    .download_img{
+        width: 2rem;
+        margin-bottom: 0rem;
+        vertical-align: middle;
+    }
+    .profile_img{
+        width: 2rem;
+        margin-right: 0rem;
+    }
+
 
     .content{
         width: calc(100% - 50px);
