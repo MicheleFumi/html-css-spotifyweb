@@ -23,6 +23,9 @@ body{
     
 
 }
+.d_hidden{
+    display: none;
+}
 .d_flex{
     display: flex;
 }
@@ -32,6 +35,7 @@ body{
 .d_inline_block{
     display: inline-block;
 }
+
 .row{
     display: flex;
   /*   gap: 1rem; */
@@ -167,7 +171,7 @@ div{
         .list_style{
             list-style: none;
             >a{
-                color: white;
+                color: #a3a3a3;
                 text-decoration: none;
                 font-weight: bold;
                
@@ -178,6 +182,7 @@ div{
             width: 2rem;
             display: inline;
             vertical-align: middle;
+            color: #a3a3a3;
         }
        .menù_icon{
             display: inline;
@@ -222,7 +227,7 @@ div{
        padding-top: 1rem;
        }
        .hr_sidebar{
-        border: 1px solid #6a6a6a;
+        border: 1px solid #a3a3a3;
        }
        .name_profile{
         font-size: larger;
@@ -384,17 +389,37 @@ div{
                 
                 position: relative;
                
-                background-color: grey;
+                background-color: rgb(71, 70, 70);
                 height: 2px;
                 
             }
             .player_bar_white, .volume_bar_white{
-                border: 1px solid white;
-                width: 2rem;
-                background-color: white;
+                border: 1px solid #a3a3a3;
+                width: 3rem;
+                
             }
+            .point_player{
+                width: 1rem;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                background-color: white;
+                position: fixed;
+                left: 43%;
+                bottom: 2.5%;
+                
 
-           
+            }
+            .point_volume{
+                width: 1rem;
+                aspect-ratio: 1/1;
+                border-radius: 50%;
+                background-color: white;
+                position: fixed;
+                left: 90%;
+                bottom: 5%;
+                
+
+            }
 
         /*#endregion BOTTOM */
    
@@ -409,7 +434,31 @@ div{
 .fx_big:hover{
     font-size: larger;
 }
+.fx_white:hover{
+    color: #ffffff;
+
+}
+.fx_bg_white:hover{
+    background-color: white;
+}
+.fx_underline:hover{
+    text-decoration: underline;
+}
+.fx_border_big:hover{
+    height: 3px;
+}
+.fx_border_green:hover{
+    border: 2px solid #adff2f;
+}
+.fx_show:hover{
+    display: inline-block;
+}
 /* #endregion HOVER */
+
+
+
+
+
 /*#region QUERY LARGE */
 @media screen and (max-width: 768px){
     .col3_lg{
