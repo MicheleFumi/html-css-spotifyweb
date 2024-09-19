@@ -327,7 +327,9 @@ div{
             top: 0;
             
         }
-        
+        .circle{
+            border-radius: 50%;
+        }
         .play_hover{
             position: absolute;
             color: white;
