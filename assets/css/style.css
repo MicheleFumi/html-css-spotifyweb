@@ -479,13 +479,15 @@ div{
 .fx_border_green:hover{
     border: 2px solid #adff2f;
 }
-.fx_show:hover{
+.show:hover{
     display:block;
 }
 .play_button{
     font-size: x-large;
 }
-
+.img_container:hover{
+    display: block;
+}
 .hover_button:hover{
     display: block;
 }
