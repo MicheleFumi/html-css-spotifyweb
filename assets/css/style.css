@@ -319,11 +319,12 @@ div{
         
         .hover_button{
             left: 0;
-            background-color: #00000041;
+            background-color: #00000081;
             width: 100%;
             aspect-ratio: 1 / 1;
             position: absolute;
             top: 0;
+            
         }
         
         .play_hover{
