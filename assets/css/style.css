@@ -270,7 +270,7 @@ div{
                 border-radius: 4rem;
                 padding: 1rem;
                 color: white;
-                font-weight: bolder;
+                font-weight: bold;
                 
                 
             }
@@ -312,11 +312,20 @@ div{
 
             }
         }
-        .song_container{
-            background-color: #080b12;
+        .img_container{
+            
             position: relative;
         }
-       
+        
+        .hover_button{
+            left: 0;
+            background-color: #00000041;
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            position: absolute;
+            top: 0;
+        }
+        
         .play_hover{
             position: absolute;
             color: white;
