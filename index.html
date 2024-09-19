@@ -25,6 +25,7 @@
 
                     <div class="logo">
                         <img class="logo_img" src="./assets/img/logo.svg" alt="">
+                        
                     </div>
 
                     <nav class="list">
@@ -255,7 +256,7 @@
                                 <i class="fa-solid fa-backward-step white small"></i>
                             </a>
                             <a href="#">
-                                <i class="fa-regular fa-circle-play white small"></i>
+                                <i class="fa-regular fa-circle-play white small play"></i>
                             </a>
                             <a href="#">
                                 <i class="fa-solid fa-forward-step white small"></i>
@@ -265,10 +266,10 @@
                             </a>
 
                         </div>
-                        <div class="player_bar d_flex ">
+                        <div class="player_centre d_flex ">
                             <div class="min_lt white">0:25</div>
-                            <div class="bar">
-                                <input type="range" id="volume-slider">
+                            <div class="player_bar">
+                                <div class="player_bar_white"></div>
                             </div>
                             <div class="min_rt white">4:35</div>
                         </div>
@@ -285,10 +286,12 @@
                                 <i class="fa-solid fa-desktop white small"></i>
                             </a>
 
-                            <a href="#">
+                            <a  id="volume_icon" href="#">
                                 <i class="fa-solid fa-volume-high white small"></i>
                             </a>
-                            <div>volume slider</div>
+                            <div class="volume_bar">
+                                <div class="volume_bar_white"></div>
+                            </div>
                         </div>
                         
                     </div>

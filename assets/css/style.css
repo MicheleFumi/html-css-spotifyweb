@@ -11,6 +11,9 @@ img{
 
     
 }
+.hidden{
+    display: none;
+}
 .debug *{
     border: 1px dashed black;
 }
@@ -252,7 +255,7 @@ div{
 
         .upgrade{
             text-align: end;
-            padding: 2rem 1rem;
+            padding: 2rem 1.5rem;
             
             a{
                 border: 1px solid white;
@@ -312,23 +315,28 @@ div{
            
             #app_footer{
                
-            
+            height: 100%;
             padding: 0.25rem;
      
             
             }
             .player{
+                height: 100%;
             justify-content: space-between;
             align-items:center
         
             }
-           
+            .left{
+                align-items: center;
+            }
+
             .now_playing{
                 width: 3rem;
+               
             }
             .name_playing{
                 margin-left: 1rem;
-                margin-right: 3rem;
+                margin-right: 1.5rem;
                 
             }
             .heart{
@@ -344,18 +352,50 @@ div{
             }
             .player_buttons{
                 justify-content: space-evenly;
+                align-items: center;
                 
             }
-            .player_bar{
+            .player_centre{
                 margin-top: 1rem;
+                justify-content: space-between;
+                align-items: center;
 
+            }
+            .play{
+                font-size: large;
             }
             .player_volume{
                 justify-content: flex-end;
+                align-items: center;
                 >a{
                     margin-right: 1rem;
                 }
             }
+
+            .player_bar{
+                margin: 0rem 1rem;
+                width: 80%;
+            }
+            .volume_bar{
+                width: 50%;
+            }
+
+            .player_bar, .volume_bar{
+                
+                position: relative;
+               
+                background-color: grey;
+                height: 2px;
+                
+            }
+            .player_bar_white, .volume_bar_white{
+                border: 1px solid white;
+                width: 2rem;
+                background-color: white;
+            }
+
+           
+
         /*#endregion BOTTOM */
    
         /*#endregion CONTENT */
