@@ -233,7 +233,10 @@ div{
         font-size: larger;
        }
 
-
+       .selection_green{
+        border: 1px solid #adff2f;
+        margin-right: 0.5rem;
+       }
     /*#endregion SIDEBAR */
        
       
@@ -313,10 +316,15 @@ div{
             background-color: #080b12;
             position: relative;
         }
-        .song_img{
-           
-        }
+       
         .play_hover{
+            position: absolute;
+            color: white;
+            top: 60px;
+            left: 0;
+            transform: translateX(65px);
+            font-size: xx-large;
+         
             
         }
         /*#endregion MAIN */ 
@@ -462,6 +470,13 @@ div{
 }
 .fx_show:hover{
     display:block;
+}
+.play_button{
+    font-size: x-large;
+}
+.play_button:hover{
+    font-size: xx-large;
+    padding: 0rem 1rem;
 }
 /* #endregion HOVER */
 
