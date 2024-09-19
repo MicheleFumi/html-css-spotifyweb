@@ -489,7 +489,7 @@ div{
 .img_container:hover{
     display: block;
 }
-.hover_button:hover{
+.fx_show:hover .hover_button{
     display: block;
 }
 /* #endregion HOVER */
