@@ -407,10 +407,10 @@ div{
 
             .player_bar{
                 margin: 0rem 1rem;
-                width: 80%;
+                width: 20rem;
             }
             .volume_bar{
-                width: 30%;
+                width: 7rem;
             }
 
             .player_bar, .volume_bar{
@@ -423,7 +423,8 @@ div{
             }
             .player_bar_white, .volume_bar_white{
                 border: 1px solid #a3a3a3;
-                width: 3rem;
+                width: 5rem;
+                position: relative;
                 
             }
             .point_player{
@@ -431,9 +432,9 @@ div{
                 aspect-ratio: 1/1;
                 border-radius: 50%;
                 background-color: white;
-                position: fixed;
-                left: 43%;
-                bottom: 2.5%;
+                position:absolute;
+                left: 5rem;
+                top: -0.5rem;
                 
 
             }
@@ -442,9 +443,9 @@ div{
                 aspect-ratio: 1/1;
                 border-radius: 50%;
                 background-color: white;
-                position: fixed;
-                left: 95%;
-                bottom: 5%;
+                position: absolute;
+                left: 4rem;
+                bottom: -6px;
                 
 
             }
@@ -484,9 +485,9 @@ div{
 .play_button{
     font-size: x-large;
 }
-.play_button:hover{
-    font-size: xx-large;
-    padding: 0rem 1rem;
+
+.hover_button:hover{
+    display: block;
 }
 /* #endregion HOVER */
 
@@ -500,8 +501,9 @@ div{
         width: calc((100% / 12) *3);
         
     }
-}
+    
 
+}
 /*#endregion QUERY LARGE */
 
 /*#region QUERY MEDIUM */
@@ -511,6 +513,22 @@ div{
         width: 50%
         
     }
+    .player_bar_white, .volume_bar_white{
+        width: .5rem;
+    }
+    .player_bar{
+        width: 2rem;
+    }
+    .volume_bar{
+        width: 2rem;
+    }
+    .point_player{
+        left: .5rem;
+    }
+    .point_volume{
+        left: .5rem;
+    }
+
 }
 
 
