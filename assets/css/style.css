@@ -501,7 +501,7 @@ div{
 
 
 /*#region QUERY LARGE */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 879px){
     .col3_lg{
         width: calc((100% / 12) *3);
         
@@ -513,7 +513,7 @@ div{
 
 /*#region QUERY MEDIUM */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 640px){
     .col2_md{
         width: 50%
         
@@ -540,7 +540,7 @@ div{
 /*#endregion QUERY MEDIUM */
 
 /*#region QUERY XSMALL */
-@media screen and (max-width:425px) {
+@media screen and (max-width:518px) {
     #sidebar{width: 50px;
     }
     .logo_small{
